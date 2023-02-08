@@ -4,7 +4,7 @@ System requirements:
 
 -GCC (checked with Apple clang version 12.0.5 (clang-1205.0.22.9))
 
--R (checked with R version 3.6.3 (2022-05-25))
+-R (checked with R version 3.6.3 (2023-02-08))
 
 -R packages: "ggplot2", "cowplot", "fanplot", "gridExtra", "kdensity", "KernSmooth", "viridis", "truncnorm", "minpack.lm", "nlsr", "iterators", "foreach", "doParallel", "dplyr".
 
