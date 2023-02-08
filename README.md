@@ -6,29 +6,27 @@ System requirements:
 
 -R (checked with R version 3.6.3 (2022-05-25))
 
--R packages: fanplot, ggplot, cowplot, gridExtra, kDensity, KernSmooth, truncnorm, minpack.lm, nlsr, iterators, foreach, doParallel, dplyr.
+-R packages: "ggplot2", "cowplot", "fanplot", "gridExtra", "kdensity", "KernSmooth", "viridis", "truncnorm", "minpack.lm", "nlsr", "iterators", "foreach", "doParallel", "dplyr".
 
-Once R and gcc are available, no explicit installation, or special hardware is needed. When running the master script as described below, C codes will be compiled as external libraries. If R packages are not installed, please install them manually.
+Once R and gcc are available, no explicit installation, or special hardware is needed. When running the master scripts provided, C codes will be compiled as external libraries. R libraries will be installed automatically, although installation success depends upon R's version. If R packages are not installed this way, please install them manually.
 
 Please note that:
--Outputs should be uncompressed in order to provide the code the needed folder structure to save results.
+-Folder's names should be preserved. Otherwise errors will be raised as scripts need the correct paths for working properly.
+
+The code is structured in three directories, each one with a master script that executes all relevant codes and produces formally equivalent outcomes to those in the main text.
 
 ##########################################################################################
+# Disease Events
 
-Executing the following command from this folder:
-
-Rscript MLE_test.R
-
-will produce an example of a simulation of a TB vaccine clinical trial formally equivalent to the one published on the main text. Also, it will infer the likelihood of each vaccine model using the methodology explained there. 
-
-PLEASE DON'T CHANGE ANY FOLDER NAME. Otherwise errors will be raised as scripts need the correct paths for properly working.
+Executing the master script produces an example of a simulation of the control cohort in the clinical trial. This simulations accounts for the number and frequency of disease events in each country of the multi-centric trial.
 
 ##########################################################################################
+# IGRA_positive_analysis
 
-The MLE_test.R produce the RCT simulation and it combines codes in C as external libraries.
-Following the execution of MLE_test.R, executing cloud_plot.R via Rscript will produce the cloud and probability distributions from which the results in the main text are derived.
+Executing the master script produces an example of a simulation of a TB vaccine clinical trial. Also, it will infer the bayesian posterior of each vaccine model using the proposed bayesian framework.
 
 ##########################################################################################
+# Impact simulations
 
-Expected output: as a final result of the simulation+vaccine inference procedure, the algorithm will write the output for each vaccine model (in Outputs/ folder) along with the likelihood and inferred epsilon value for each model in the whole simulation.
+Executing the master script produces an example of an impact forecast simulation formally equivalent to the ones published on the main text. This impact forecast represents the impact of each one of the seven proposed vaccine models along with the bayesian average that is proposed withing this framework.
 
