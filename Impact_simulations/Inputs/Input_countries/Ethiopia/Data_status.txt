@@ -1,5 +1,0 @@
-TB_burden	Good
-Demography	Good
-Age_distribution	Good
-Type_disease	Bad
-Treatment_outcomes	Good
