@@ -1,0 +1,21 @@
+Year Inc Inc_lo Inc_hi Source_inc Mort Mort_lo Mort_hi Source_mort
+2000	4510	2760	6680	Expert_opinion	1800	1070	2730	indirect
+2001	4990	3060	7400	Expert_opinion	1990	1180	3010	indirect
+2002	5340	3270	7910	Expert_opinion	1970	1130	3030	indirect
+2003	6100	3730	9040	Expert_opinion	2270	1310	3490	indirect
+2004	6340	3880	9390	Expert_opinion	2340	1350	3610	indirect
+2005	6300	3850	9330	Expert_opinion	2320	1330	3570	indirect
+2006	6460	3950	9580	Expert_opinion	2360	1630	3230	indirect
+2007	6180	3780	9150	Expert_opinion	2200	1520	3000	indirect
+2008	5640	3450	8360	Expert_opinion	1970	1370	2690	indirect
+2009	5660	3460	8380	Expert_opinion	1970	1360	2680	indirect
+2010	5310	3250	7860	Expert_opinion	1810	1240	2470	indirect
+2011	5060	3100	7500	Expert_opinion	1700	1180	2310	indirect
+2012	4710	2880	6980	Expert_opinion	1560	1080	2130	indirect
+2013	4430	2710	6560	Expert_opinion	1460	1010	2000	indirect
+2014	4230	2590	6260	Expert_opinion	1380	950	1880	indirect
+2015	3800	2330	5640	Expert_opinion	1220	840	1670	indirect
+2016	3480	2130	5160	Expert_opinion	1100	760	1510	indirect
+2017	3190	1950	4720	Expert_opinion	870	600	1200	indirect
+2018	2920	1790	4320	Expert_opinion	640	440	870	indirect
+
