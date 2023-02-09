@@ -15,17 +15,14 @@ Please note that:
 
 The code is structured in three directories, each one with a master script that executes all relevant codes and produces formally equivalent outcomes to those in the main text.
 
-##########################################################################################
 # Disease Events
 
 Executing the master script produces an example of a simulation of the control cohort in the clinical trial. This simulations accounts for the number and frequency of disease events in each country of the multi-centric trial.
 
-##########################################################################################
 # IGRA_positive_analysis
 
 Executing the master script produces an example of a simulation of a TB vaccine clinical trial. Also, it will infer the bayesian posterior of each vaccine model using the proposed bayesian framework.
 
-##########################################################################################
 # Impact simulations
 
 Executing the master script produces an example of an impact forecast simulation formally equivalent to the ones published on the main text. This impact forecast represents the impact of each one of the seven proposed vaccine models along with the bayesian average that is proposed withing this framework.
