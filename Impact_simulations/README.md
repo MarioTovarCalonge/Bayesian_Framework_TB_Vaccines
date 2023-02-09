@@ -13,7 +13,7 @@ Once R and gcc are available, no explicit installation, or special hardware is n
 Please note that:<br>
 <ul>
   <li>Folder's names should be preserved. Otherwise errors will be raised as scripts need the correct paths for working properly.</li>
-  <li>__.zip files included MUST BE UNCOMPRESSED__, as they contain all the needed inputs for the code to work along with the required folder structure. Errors will be raised otherwise.</li>
+  <li> **.zip files included MUST BE UNCOMPRESSED**, as they contain all the needed inputs for the code to work along with the required folder structure. Errors will be raised otherwise.</li>
   <li>Uncompressed folders should preserve the provided file structure. This includes Outputs.zip, which must be at the same level as the rest of the main folders (Codes/, Inputs/, Inputs_Iters/, Outputs/ and Impact_Outputs/) and the .zip files inside Input_Iters/, one per country, giving a total of 7 .zip files. Please check the .png file structure images to have a visual reference.</li>
 </ul>
 
