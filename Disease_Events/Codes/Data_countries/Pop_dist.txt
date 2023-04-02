@@ -1,4 +1,0 @@
-Country Control Vaccine Total
-Kenya 248 245 493
-Zambia 71 74 145
-South_Africa 1344 1307 2651
