@@ -1,0 +1,6 @@
+target = 0
+waning_h = 10.000000
+transition age S_L_R efficacy e_low e_hi coverage c_low c_hi waning w_low w_hi blocking b_low b_hi
+E_p_AON 0 LR 1.0 1.0 1.0 0.503623 0.503623 0.503623 0.00 0.00 0.00 0.0 0.0 0.0
+E_q 0 LR 1.0 1.0 1.0 0.503623 0.503623 0.503623 0.00 0.00 0.00 0.0 0.0 0.0
+E_rl 0 LR 1.0 1.0 1.0 0.503623 0.503623 0.503623 0.00 0.00 0.00 0.0 0.0 0.0
